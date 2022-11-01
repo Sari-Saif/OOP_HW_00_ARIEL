@@ -1,4 +1,4 @@
-package HM0;
+package HW0;
 
 import java.util.Stack;
 
