@@ -7,6 +7,7 @@ public class UndoableStringBuilder implements IUndoableStringBuilder
     private StringBuilder _str;
     private Stack<String> _stack;
 
+
     public UndoableStringBuilder()
     {
         this._str = new StringBuilder();
