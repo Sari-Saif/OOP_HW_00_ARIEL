@@ -47,7 +47,7 @@ public interface IUndoableStringBuilder
      * command or function  is used to reverse the last action performed
      * @return the result of last action performed
      */
-    public UndoableStringBuilder undo();
+    public void undo();
 
 
 }

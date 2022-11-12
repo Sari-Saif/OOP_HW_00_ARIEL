@@ -56,12 +56,12 @@ public class UndoableStringBuilder implements IUndoableStringBuilder
     }
 
     @Override
-    public UndoableStringBuilder undo()
+    public void undo()
     {
 
         if(this._stack.empty())
         {
-            return this;
+            return;
         }
 
         this._stack.pop();
@@ -72,7 +72,6 @@ public class UndoableStringBuilder implements IUndoableStringBuilder
         {
             _str.append(_stack.peek());
         }
-      return this;
     }
 
     @Override

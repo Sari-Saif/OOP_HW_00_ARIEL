@@ -2,8 +2,8 @@ package HW0;
 
 public class Main
 {
-    public static void main(String [] args )
-    {
+
+    public static void main(String [] args ) {
         UndoableStringBuilder usb = new UndoableStringBuilder();
         usb.append("to be or not to be") ;
         System.out.println(usb) ;
@@ -20,6 +20,7 @@ public class Main
         System.out.println(usb) ;
         usb.undo();
         System.out.println(usb) ;
+
     }
 
 }
