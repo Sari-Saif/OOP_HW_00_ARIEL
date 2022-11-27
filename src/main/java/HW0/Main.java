@@ -5,6 +5,9 @@ public class Main
 
     public static void main(String [] args ) {
         UndoableStringBuilder usb = new UndoableStringBuilder();
+        UndoableStringBuilder un = null;
+        un.insert(0,"hahahah");// there problem .
+        System.out.println(un);
         usb.append("to be or not to be") ;
         System.out.println(usb) ;
         usb.replace(3, 5, "eat") ;
